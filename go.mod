@@ -29,8 +29,6 @@ require (
 	modernc.org/sqlite v1.29.9
 )
 
-replace github.com/sqlc-dev/sqlc => github.com/muzzapp/sqlc v0.0.0-20240801161612-7de54dddc489
-
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/cznic/mathutil v0.0.0-20181122101859-297441e03548 // indirect
