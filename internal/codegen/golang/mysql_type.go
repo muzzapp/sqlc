@@ -3,10 +3,10 @@ package golang
 import (
 	"log"
 
-	"github.com/sqlc-dev/sqlc/internal/codegen/golang/opts"
-	"github.com/sqlc-dev/sqlc/internal/codegen/sdk"
-	"github.com/sqlc-dev/sqlc/internal/debug"
-	"github.com/sqlc-dev/sqlc/internal/plugin"
+	"github.com/muzzapp/sqlc/internal/codegen/golang/opts"
+	"github.com/muzzapp/sqlc/internal/codegen/sdk"
+	"github.com/muzzapp/sqlc/internal/debug"
+	"github.com/muzzapp/sqlc/internal/plugin"
 )
 
 func mysqlType(req *plugin.GenerateRequest, options *opts.Options, col *plugin.Column) string {

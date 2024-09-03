@@ -3,11 +3,11 @@ package validate
 import (
 	"errors"
 
-	"github.com/sqlc-dev/sqlc/internal/config"
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
-	"github.com/sqlc-dev/sqlc/internal/sql/astutils"
-	"github.com/sqlc-dev/sqlc/internal/sql/catalog"
-	"github.com/sqlc-dev/sqlc/internal/sql/sqlerr"
+	"github.com/muzzapp/sqlc/internal/config"
+	"github.com/muzzapp/sqlc/internal/sql/ast"
+	"github.com/muzzapp/sqlc/internal/sql/astutils"
+	"github.com/muzzapp/sqlc/internal/sql/catalog"
+	"github.com/muzzapp/sqlc/internal/sql/sqlerr"
 )
 
 type funcCallVisitor struct {

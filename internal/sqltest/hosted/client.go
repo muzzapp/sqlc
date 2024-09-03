@@ -5,8 +5,8 @@ import (
 	"os"
 	"sync"
 
-	"github.com/sqlc-dev/sqlc/internal/quickdb"
-	pb "github.com/sqlc-dev/sqlc/internal/quickdb/v1"
+	"github.com/muzzapp/sqlc/internal/quickdb"
+	pb "github.com/muzzapp/sqlc/internal/quickdb/v1"
 )
 
 var client pb.QuickClient

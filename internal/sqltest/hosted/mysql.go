@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/sqlc-dev/sqlc/internal/quickdb"
-	pb "github.com/sqlc-dev/sqlc/internal/quickdb/v1"
-	"github.com/sqlc-dev/sqlc/internal/sql/sqlpath"
+	"github.com/muzzapp/sqlc/internal/quickdb"
+	pb "github.com/muzzapp/sqlc/internal/quickdb/v1"
+	"github.com/muzzapp/sqlc/internal/sql/sqlpath"
 )
 
 func MySQL(t *testing.T, migrations []string) string {

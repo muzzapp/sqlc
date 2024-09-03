@@ -3,13 +3,13 @@ package compiler
 import (
 	"sort"
 
-	analyzer "github.com/sqlc-dev/sqlc/internal/analysis"
-	"github.com/sqlc-dev/sqlc/internal/config"
-	"github.com/sqlc-dev/sqlc/internal/source"
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
-	"github.com/sqlc-dev/sqlc/internal/sql/named"
-	"github.com/sqlc-dev/sqlc/internal/sql/rewrite"
-	"github.com/sqlc-dev/sqlc/internal/sql/validate"
+	analyzer "github.com/muzzapp/sqlc/internal/analysis"
+	"github.com/muzzapp/sqlc/internal/config"
+	"github.com/muzzapp/sqlc/internal/source"
+	"github.com/muzzapp/sqlc/internal/sql/ast"
+	"github.com/muzzapp/sqlc/internal/sql/named"
+	"github.com/muzzapp/sqlc/internal/sql/rewrite"
+	"github.com/muzzapp/sqlc/internal/sql/validate"
 )
 
 type analysis struct {

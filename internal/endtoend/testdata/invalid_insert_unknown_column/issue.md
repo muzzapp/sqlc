@@ -1,1 +1,1 @@
-https://github.com/sqlc-dev/sqlc/issues/381
+https://github.com/muzzapp/sqlc/issues/381

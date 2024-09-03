@@ -6,12 +6,12 @@ import (
 	"os"
 	"runtime/trace"
 
+	"github.com/muzzapp/sqlc/internal/config"
+	"github.com/muzzapp/sqlc/internal/migrations"
+	"github.com/muzzapp/sqlc/internal/quickdb"
+	pb "github.com/muzzapp/sqlc/internal/quickdb/v1"
+	"github.com/muzzapp/sqlc/internal/sql/sqlpath"
 	"github.com/spf13/cobra"
-	"github.com/sqlc-dev/sqlc/internal/config"
-	"github.com/sqlc-dev/sqlc/internal/migrations"
-	"github.com/sqlc-dev/sqlc/internal/quickdb"
-	pb "github.com/sqlc-dev/sqlc/internal/quickdb/v1"
-	"github.com/sqlc-dev/sqlc/internal/sql/sqlpath"
 )
 
 var createDBCmd = &cobra.Command{
